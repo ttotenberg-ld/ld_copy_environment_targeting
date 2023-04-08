@@ -58,4 +58,5 @@ def copy_all_flag_targets():
         print(f"Successfully copied settings for {i}")
 
 if __name__ == "__main__":
+    print("Copying from " + SOURCE_ENVIRONMENT + " to " + DESTINATION_ENVIRONMENT)
     copy_all_flag_targets()
